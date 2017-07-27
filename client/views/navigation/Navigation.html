@@ -1,0 +1,39 @@
+
+<template name="navigation">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+  
+<div id="myTopnav">
+  <a class="navbar-link" href="#home">UBCcards</a>
+  <div id="login-btn" class="navbar-nav">
+        <ul class="nav navbar-nav navbar-right" style="float:right">
+          {{> loginButtons}}
+        </ul>  
+		</div>
+  <a class="navbar-link" href="#contact" style="float:right">Options</a>
+  <a class="navbar-link" href="#news" style="float:right">Help</a>
+  
+</div>
+  
+  <!--
+  
+  
+      <div id="title" class="nav navbar-nav navbar-left">
+        <a class="navbar-brand" href="{{pathFor route='home'}}">UBCcards</a>
+      </div> 
+  
+		
+      <div id="search" class="input-group">
+        {{> inputAutocomplete settings=autocompleteSettings id="courseSearch" class="input-xlarge" placeholder="Find a course..."}}
+      </div> #search  
+
+	  <div id="help-btn" class="navbar-nav">
+		<button type="button" class="btn btn-block btn-primary">Help</button>
+	  </div>
+	  
+      
+      </div>-->
+  
+    </div>
+  </nav>
+</template>
