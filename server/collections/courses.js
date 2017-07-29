@@ -1,6 +1,10 @@
-Courses = new Meteor.Collection('courses');
+const Schema = {};
 
-CourseScheme = new SimpleSceme({
+import SimpleSchema from 'simpl-schema'
+
+Courses = new Mongo.Collection('courses');
+
+CourseSchema = new SimpleSchema({
 	
 	name: {
 		type: String,
@@ -27,7 +31,6 @@ CourseScheme = new SimpleSceme({
 	created: {
 		type: Date,
 		label: "Date Created",
-		denyUpdate: true,
 		autoValue: function() {
 			if ( this.isInsert ) {
 				return new Date;

@@ -1,4 +1,8 @@
-Cards = new Meteor.Collection('cards');
+const Schema = {};
+
+import SimpleSchema from 'simpl-schema'
+
+Cards = new Mongo.Collection('cards');
 
 CardSchema = new SimpleSchema({
 	creator: {
@@ -14,7 +18,6 @@ CardSchema = new SimpleSchema({
 	created: {
 		type: Date,
 		label: "Date Created",
-		denyUpdate: true,
 		autoValue: function() {
 			if ( this.isInsert ) {
 				return new Date;
@@ -46,15 +49,15 @@ CardSchema = new SimpleSchema({
 		defaultValue: 0
 	},
 	
-	numberOfRatings {
+	numberOfRatings: {
 		type: Number,
 		label: "Number of Ratings",
 		defaultValue: 0
 	},
 	
 	//The extra search terms
-	tags {
-		type: [Object],
+	tags: {
+		type: Array,
 		label: "Tags",
 		optional: true,
 		defaultValue: []
@@ -70,14 +73,14 @@ CardSchema = new SimpleSchema({
 	},
 	
 	//Flip card data
-	"dataType.$.flipfront" {
+	"dataType.$.flipfront": {
 		type: String,
 		label: "Front of flip card",
 		max: 250,
 		optional: true
 	},
 	
-	"dataType.$.flipback" {
+	"dataType.$.flipback": {
 		type: String,
 		label: "Back of flip card",
 		max: 250,
