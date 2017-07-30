@@ -1,0 +1,40 @@
+<template name="courseRowTable">
+	<div class="courseRowTableTitle">
+		{{#if showEnrolled}}
+			<h3>Enrolled Courses</h3>
+		{{else}}
+			<h3>All Courses</h3>
+		{{/if}}
+	</div>
+	<div class="courseRowTableContent">
+		<table class="table" >
+			<thead>
+			<tr >
+				<th style="text-align:center">Name</th>
+				<th style="text-align:center">Enrolled</th>
+				<th style="text-align:center">Flashcards</th>
+				<th><!-- enroll button --></th>
+				<th><!-- study button --></th>
+			</tr>
+			</thead>
+			<tbody>
+			{{#if showEnrolled}}
+				{{#if enrolledCourse=0}}
+					<tr>
+					<	th colspan="5" style="text-align:center">No currently enrolled courses</th>
+					</tr>
+				{{else}}
+					{{#each enrolledCourse}}
+						{{> courseRow }}
+					{{/each}}
+				{{/if}}
+			{{else}}
+				{{#each course}}
+					{{> courseRow }}
+				{{/each}}
+			{{/if}}
+			</tbody>
+		</table>
+	</div>
+</template>
+	

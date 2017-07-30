@@ -1,10 +1,15 @@
 const Schema = {};
 
+import { Mongo } from 'meteor/mongo';
+
 import SimpleSchema from 'simpl-schema'
+SimpleSchema.extendOptions(['autoform']);
 
-Cards = new Mongo.Collection('cards');
+export const Cards = new Mongo.Collection('cards');
 
-CardSchema = new SimpleSchema({
+Cards.attachSchema(new SimpleSchema({
+	
+	//The user that created the card
 	creator: {
 		type: String,
 		label: "Creator Name",		
@@ -15,6 +20,13 @@ CardSchema = new SimpleSchema({
 		}
 	},
 	
+	//The course the card is used for
+	courseCode: {
+		type: String,
+		label: "Card Course Code"
+	},
+	
+	//Date of creation
 	created: {
 		type: Date,
 		label: "Date Created",
@@ -25,6 +37,7 @@ CardSchema = new SimpleSchema({
 		}		
 	},
 	
+	//Date of last update
 	updated: {
 		type: Date,
 		label: "Date Updated",
@@ -89,10 +102,9 @@ CardSchema = new SimpleSchema({
 	
 	//Other card data
 	
-})
+}))
 
-Cards.attachSchema(CardSchema);
-
+console.log("Created cards schema")
 
 
 
