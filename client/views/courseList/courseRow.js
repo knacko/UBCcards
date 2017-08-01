@@ -1,12 +1,6 @@
 
 
-import { Courses } from '/imports/collections/courses.js';
-
-import { Cards } from '/imports/collections/cards.js';
-
 import './courseRow';
-
-
 
 Template.courseRow.helpers ({
 	getNumCards() {
@@ -50,16 +44,16 @@ Template.courseRow.events({
 		console.log("Dropped " + Meteor.userId() + " from " + this.name);
 	},	
 	
-	"click .courseRow": function (e,t) {
+	"click .btn-courseRow": function (e,t) {
 		//Session.set("selectedCourse",this._id);
-		
-		console.log("Clicked on course: " + $(e.target).closest('tr').data('name'));
-		
 		var courseID = $(e.target).closest('tr').data('id');
-
-		//console.log("Selected course: " + Session.get("selectedCourse");
-       // e.preventDefault();
-        //e.stopPropagation();
+		
+		console.log("Clicked on course: " + $(e.target).closest('tr').data('name') + "/" + courseID);
+		
+		Router.go('/course/' + courseID);
+		
+		e.preventDefault();
+        e.stopPropagation();
     },
 	
 	});

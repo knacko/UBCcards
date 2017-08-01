@@ -1,7 +1,10 @@
 
-import { Courses } from '/imports/collections/courses.js';
-
 import './courseRowTable';
+
+Template.courseRow.onCreated(function() {
+  Meteor.subscribe('courses');
+});
+
 
 Template.courseRowTable.helpers ({
 	course() {

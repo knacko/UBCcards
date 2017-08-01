@@ -1,6 +1,3 @@
-
-import { Courses } from '/imports/collections/courses.js';
-
 import './courseList.html';
 
 Template.courseList.events({

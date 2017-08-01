@@ -1,0 +1,15 @@
+<template name="cardRow">
+	<tr style="text-align:center" data-id="{{_id}}">
+		<td align="left"><input type="text" value={{dataType.$.flipfront}} name="flipfront"></td>
+		<td align="left">{{dataType.$.flipback}}</td>
+		<td>{{tags}}<!--{{enrolled}}--></td>
+		<td>{{getNumCards}}<!--{{cardCount}}--></td>
+		<td>
+			<button class="btn {{enrollOrDropAction}}" >{{enrollOrDrop}}</button>
+		</td>
+		<td>
+			<button class="btn">Study</button>
+		</td>
+	</tr>
+
+</template>

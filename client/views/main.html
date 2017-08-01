@@ -3,18 +3,9 @@
 </head>
 
 <body>
-  {{> layout}}
 </body>
 
 <template name="layout">
-
-  {{> navigation }}
-
-  <div class="container-fluid">
-    <div class="starter-template">
-
-     {{> courseList}}
-
-    </div>
-  </div>
+{{> navigation }}
+{{> yield}}
 </template>
