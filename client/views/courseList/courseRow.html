@@ -1,5 +1,5 @@
 <template name="courseRow">
-	<tr style="text-align:center">
+	<tr class="courseRow" style="text-align:center" data-name="{{name}}" data-id="{{_id}}">
 		<td align="left">{{name}}</td>
 		<td align="left">{{courseCode}}</td>
 		<td>{{getNumEnrolled}}<!--{{enrolled}}--></td>

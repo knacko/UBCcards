@@ -70,10 +70,10 @@ Cards.attachSchema(new SimpleSchema({
 	
 	//The extra search terms
 	tags: {
-		type: Array,
+		type: String,
 		label: "Tags",
 		optional: true,
-		defaultValue: []
+		defaultValue: ""
 	},
 	
 	/*The type of flashcard

@@ -6,9 +6,6 @@
 		max-width: 80%;
 		 margin: auto;
 	  }
-
-
-	  
 	  
 	a.navbar-link {
 		float: left;
@@ -46,5 +43,9 @@
 	  showMethod: fadeIn,
 	  hideMethod: fadeOut
 	}
+  
+  .table.table-rollover tr:hover > td {
+    background: #c6c6c6;
+}
   
 }
