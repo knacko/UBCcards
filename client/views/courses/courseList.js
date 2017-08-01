@@ -17,7 +17,7 @@ Template.courseList.events({
 	  courseCode: "blah",
 	  creator: "todd",
       created: new Date(), // current time
-	  
+	  students: [],
     }, (error, result) => {});
 
     target.text.value = '';

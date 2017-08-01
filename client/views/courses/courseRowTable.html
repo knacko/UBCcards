@@ -18,13 +18,13 @@
 			</tr>
 			</thead>
 			<tbody>
-			{{#if showEnrolled}}
-				{{#if enrolledCourse=0}}
-					<tr><td colspan="5" style="text-align:center">No currently enrolled courses</td></tr>
-				{{else}}
+			{{#if showJustEnrolled}}
+				{{#if enrolledInACourse}}
 					{{#each enrolledCourse}}
 						{{> courseRow }}
 					{{/each}}
+				{{else}}
+					<tr><td colspan="5" style="text-align:center">No currently enrolled courses</td></tr>
 				{{/if}}
 			{{else}}
 				{{#each course}}

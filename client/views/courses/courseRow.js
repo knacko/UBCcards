@@ -18,22 +18,32 @@ Template.courseRow.helpers ({
 	},
 	
 	enrollOrDrop() {
-		return isEnrolled() ? "Drop" : "Enroll";
+		return (this.students).includes(Meteor.userId()) ? "Drop" : "Enroll";
 	},
 	
 	enrollOrDropAction() {
-		return isEnrolled() ? "btn-dropCourse" : "btn-enrollCourse";
+		return (this.students).includes(Meteor.userId()) ? "btn-dropCourse" : "btn-enrollCourse";
 	},
 
 });
 
-	isEnrolled = function() {
+Template.courseRow.events({
+	
+	"click .btn-enrollCourse": function () {
 		
-		return true;
-		/*
-		if (Meteor.user() && $.inArray(Session.get("selectedCourse"), Meteor.user().courses) !== -1) {
-			return true;
-		} else {
-			return false;
-		}*/
-	};	
+		Courses.update({_id: this._id}, {$push: {students: Meteor.userId()}});
+		
+		console.log("Enrolled " + Meteor.userId() + " in " + this.name + "/" + this._id);
+		
+	},
+		
+	"click .btn-dropCourse": function () {
+		
+		Courses.update({_id: this._id}, {$pull: {students: Meteor.userId()}});
+		
+		console.log("Dropped " + Meteor.userId() + " from " + this.name);
+	},	
+	
+	
+	});
+	

@@ -26,12 +26,12 @@ Courses.attachSchema(new SimpleSchema({
 	//The user who created the course
 	creator: {
 		type: String,
-		label: "Creator Name",		
-		/*autoValue: function() {
+		label: "Creator ID",		
+		autoValue: function() {
 			if(this.isInsert) {
 				return this.userId;				
 			}
-		}*/
+		}
 	},
 	
 	//The date of creation
@@ -48,7 +48,11 @@ Courses.attachSchema(new SimpleSchema({
 	//The list of student IDs in the course
 	students: {
 		type: Array, 
-		defaultValue: [],
+		defaultValue: ["default"],
+	},
+	
+	'students.$': {
+		type: String,
 	},
 }));
 
