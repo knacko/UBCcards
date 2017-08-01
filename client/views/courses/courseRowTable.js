@@ -9,4 +9,8 @@ Template.courseRowTable.helpers ({
 		console.log("Found courses: " + c.count());	
 		return c;
 	},
+	
+
+	
+	
 });

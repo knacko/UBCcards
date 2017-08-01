@@ -43,7 +43,13 @@ Courses.attachSchema(new SimpleSchema({
 				return new Date;
 			} 
 		}		
-	}
-}))
+	},
+	
+	//The list of student IDs in the course
+	students: {
+		type: Array, 
+		defaultValue: [],
+	},
+}));
 
 console.log("Created courses schema")

@@ -1,18 +1,13 @@
 <template name="courseRow">
-
 	<tr style="text-align:center">
-		<td>{{name}}</td>
-		<td>5<!--{{enrolled}}--></td>
-		<td>5<!--{{cardCount}}--></td>
+		<td align="left">{{name}}</td>
+		<td>{{getNumEnrolled}}<!--{{enrolled}}--></td>
+		<td>{{getNumCards}}<!--{{cardCount}}--></td>
 		<td>
-		{{#if enrolled}}
-			<button class="btn" data-id="{{courseCode}}">Drop</button>
-		{{else}}
-			<button class="btn" data-id="{{courseCode}}">Enroll</button>
-		{{/if}}
+			<button class="btn" >{{enrollOrDrop}}</button>
 		</td>
 		<td>
-			<button class="btn" data-id="{{courseCode}}">Study</button>
+			<button class="btn">Study</button>
 		</td>
 	</tr>
 

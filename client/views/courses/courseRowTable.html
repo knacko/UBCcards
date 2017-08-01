@@ -9,20 +9,18 @@
 	<div class="courseRowTableContent">
 		<table class="table" >
 			<thead>
-			<tr >
-				<th style="text-align:center">Name</th>
-				<th style="text-align:center">Enrolled</th>
-				<th style="text-align:center">Flashcards</th>
-				<th><!-- enroll button --></th>
-				<th><!-- study button --></th>
+			<tr>
+				<th width="40%" style="text-align:left">Name</th>
+				<th width="15%" style="text-align:center">Enrolled</th>
+				<th width="15%" style="text-align:center">Flashcards</th>
+				<th width="15%" ><!-- enroll button --></th>
+				<th width="15%" ><!-- study button --></th>
 			</tr>
 			</thead>
 			<tbody>
 			{{#if showEnrolled}}
 				{{#if enrolledCourse=0}}
-					<tr>
-					<	th colspan="5" style="text-align:center">No currently enrolled courses</th>
-					</tr>
+					<tr><td colspan="5" style="text-align:center">No currently enrolled courses</td></tr>
 				{{else}}
 					{{#each enrolledCourse}}
 						{{> courseRow }}
