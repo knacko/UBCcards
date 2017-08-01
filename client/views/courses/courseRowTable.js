@@ -5,13 +5,13 @@ import './courseRowTable';
 
 Template.courseRowTable.helpers ({
 	course() {
-		var c = Courses.find({});
+	var c = Courses.find({},{sort:{name: 1}});
 		console.log("Found courses: " + c.count());	
 		return c;
 	},
 	
 	enrolledCourse() {
-		var c = Courses.find({students: Meteor.userId()});
+		var c = Courses.find({students: Meteor.userId()}, {sort:{name: 1}});
 		console.log("Found enrolled courses: " + c.count());	
 		return c;
 	},
