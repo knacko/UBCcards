@@ -1,15 +1,8 @@
 <template name="cardRow">
 	<tr style="text-align:center" data-id="{{_id}}">
-		<td align="left"><input type="text" value={{dataType.$.flipfront}} name="flipfront"></td>
-		<td align="left">{{dataType.$.flipback}}</td>
-		<td>{{tags}}<!--{{enrolled}}--></td>
-		<td>{{getNumCards}}<!--{{cardCount}}--></td>
-		<td>
-			<button class="btn {{enrollOrDropAction}}" >{{enrollOrDrop}}</button>
-		</td>
-		<td>
-			<button class="btn">Study</button>
-		</td>
+		<td><textarea id="front" rows="3"></textarea></td>
+		<td><textarea id="back" rows="3"></textarea></td>
+		<td><textarea id="tags" rows="3"></textarea></td>
+		<td><button class="btn btn-saveCard" >Save</button></td>
 	</tr>
-
 </template>

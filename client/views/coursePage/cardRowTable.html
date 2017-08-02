@@ -1,14 +1,40 @@
 <template name="cardRowTable">
-	<div class="courseRowTableContent ">
-		<table class="table table-rollover" >
-			<thead>
-			<tr>
-				<th width="40%" style="text-align:left">Name</th>
-				
-			</tr>
-			</thead>
-			
-		</table>
-	</div>
-</template>
+<table class="table">
+	<thead>
+		<tr>
+			<th width="30%" style="text-align:center">Front</th>
+			<th width="30%" style="text-align:center">Back</th>
+			<th width="20%" style="text-align:center">Tags</th>
+			<th width="20%" style="text-align:center">Stats</th>
+		</tr>
+	</thead>
+	<tbody>
+
+
+
+	{{#if showJustFlagged}}
+			{{#each flaggedCard}}
+				{{> cardRow }}
+			{{/each}}
+
+
+
+
+
+	{{else}}
 	
+			{{> cardRow blank=true}}
+	
+			{{#each card}}
+				{{> cardRow }}
+			{{/each}}
+
+
+
+
+{{/if}}	
+
+	</tbody>
+</table>
+
+</template>

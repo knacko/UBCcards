@@ -3,7 +3,20 @@
 	<div class="RowTableTitle">
 		<h3>Course: {{name}} / {{_id}}</h3>
 	</div>
+	
+	{{> cardRowTable}}
+	
+	<!--
 
- {{> cardRowTable}}
-  
+	{{#basicTabs name="" tabs=tabs}}
+	
+		{{#tabContent slug="active"}}
+			{{> cardRowTable}}
+		{{/tabContent}}
+		
+		{{#tabContent slug="flagged"}}
+			{{> cardRowTable showOnlyFlagged="true"}}
+		{{/tabContent}}
+	{{/basicTabs}}
+  -->
 </template>
