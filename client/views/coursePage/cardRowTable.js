@@ -1,4 +1,4 @@
-ReactiveTabs.createInterface({
+/* ReactiveTabs.createInterface({
   template: 'basicTabs',
   onChange: function (slug, template) {
     // This callback runs every time a tab changes.
@@ -6,11 +6,18 @@ ReactiveTabs.createInterface({
     console.log('[tabs] Tab has changed! Current tab:', slug);
     console.log('[tabs] Template instance calling onChange:', template);
   }
+}); */
+
+Template.cardRowTable.onCreated(function() {
+  Meteor.subscribe('cards', this._id);
 });
 
-Template.courseRowTable.helpers ({
+Template.cardRowTable.helpers ({
 	card() {
-	var c = Cards.find({flags: 0});
+			
+	console.log("Looking for cards in " + this.courseCode);
+			
+	var c = Cards.find({courseCode: this.courseCode});
 		console.log("Found cards: " + c.count());	
 		return c;
 	},
@@ -20,6 +27,7 @@ Template.courseRowTable.helpers ({
 		console.log("Found cards: " + c.count());	
 		return c;
 	},
+	
 	
 	tabs: function () {
     // Every tab object MUST have a name and a slug!

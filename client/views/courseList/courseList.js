@@ -11,7 +11,7 @@ Template.courseList.events({
 
     Courses.insert({
       name: text,
-	  courseCode: "blah",
+	  courseCode: ("" + Math.floor((Math.random() * 10000) + 1)),
 	  creator: "todd",
       created: new Date(), // current time
 	  students: [],

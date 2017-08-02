@@ -1,6 +1,17 @@
-
-
 import './cardRow';
+
+Template.cardRow.onCreated(function() {
+  
+  if (!this.blank) {
+	  
+	console.log("card id: " + this._id);
+	
+	$("#front"+this._id).val(this.flipfront); 
+	$("#back"+this._id).val(this.flipback); 
+	$("#tags"+this._id).val(this.tags); 
+	  
+  }  
+});
 
 Template.cardRow.helpers ({
 	getStats() {
@@ -8,49 +19,64 @@ Template.cardRow.helpers ({
 		console.log("Found " + n + " cards in " + this.name);
 		return n;	
 	},
-
+	
+	isBlank(){
+		return this.blank=="true";
+		
+	}
 });
 
 Template.cardRow.events({
 	
 	"click .btn-saveCard": function (e) {
+
+	if (this.blank=="true")	{
+		Cards.insert({
+			courseCode: this.code,
+			flipfront: $("#front").val(),
+			flipback: $("#back").val(),
+			tags: $("#tags").val(),
+			dataType: "flip"
+		});
+		
+		$("#front").val(""); 
+		$("#back").val(""); 
+		$("#tags").val(""); 
 	
-	var front = $("#front").val(); 
-	var back = $("#back").val(); 
-	var tags = $("#tags").val(); 
+	} else {
+		Cards.update(
+			this._id
+		,{
+			$set: {
+				flipfront: $("#front"+this._id).val(),
+				flipback: $("#back"+this._id).val(),
+				tags: $("#tags"+this._id).val(),
+				updated: new Date()
+			}
+		});
+	}
 
-    Cards.insert({
-	  courseCode: this.courseCode,
-	  "dataType.$.flipfront": front,
-	  "dataType.$.flipback": back,
-	  tags: tags,
-    }, (error, result) => {});
-
-	event.preventDefault();
+	e.preventDefault();
+    e.stopPropagation();
+	
+	
+	
+	console.log("Done things");
+	
   },
 		
 
 		
-	"click .btn-dropCourse": function (e) {
+	"click .btn-deleteCard": function (e) {
 		
-		Courses.update({_id: this._id}, {$pull: {students: Meteor.userId()}});
-		
-		toastr["info"]("Removed you from " + this.name);
-		
-		console.log("Dropped " + Meteor.userId() + " from " + this.name);
-	},	
-	
-	"click .btn-courseRow": function (e,t) {
-		//Session.set("selectedCourse",this._id);
-		var courseID = $(e.target).closest('tr').data('id');
-		
-		console.log("Clicked on course: " + $(e.target).closest('tr').data('name') + "/" + courseID);
-		
-		Router.go('/course/' + courseID);
+		Cards.remove({_id: this._id});
+				
+		//console.log("Dropped " + Meteor.userId() + " from " + this.name);
 		
 		e.preventDefault();
-        e.stopPropagation();
-    },
+		e.stopPropagation();
+	},	
+	
 	
 	});
 	

@@ -1,5 +1,3 @@
-
-
 import './courseRow';
 
 Template.courseRow.helpers ({
@@ -33,6 +31,8 @@ Template.courseRow.events({
 		
 		console.log("Enrolled " + Meteor.userId() + " in " + this.name + "/" + this._id);
 		
+		e.preventDefault();
+		e.stopPropagation();
 	},
 		
 	"click .btn-dropCourse": function (e) {
@@ -42,6 +42,9 @@ Template.courseRow.events({
 		toastr["info"]("Removed you from " + this.name);
 		
 		console.log("Dropped " + Meteor.userId() + " from " + this.name);
+		
+		e.preventDefault();
+		e.stopPropagation();
 	},	
 	
 	"click .btn-courseRow": function (e,t) {

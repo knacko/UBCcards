@@ -1,8 +1,9 @@
 <template name="cardRow">
 	<tr style="text-align:center" data-id="{{_id}}">
-		<td><textarea id="front" rows="3"></textarea></td>
-		<td><textarea id="back" rows="3"></textarea></td>
-		<td><textarea id="tags" rows="3"></textarea></td>
+		<td><textarea id="front{{_id}}" rows="3" width="100%">{{flipfront}}</textarea></td>
+		<td><textarea id="back{{_id}}" rows="3">{{flipback}}</textarea></td>
+		<td><textarea id="tags{{_id}}" rows="3">{{tags}}</textarea></td>
 		<td><button class="btn btn-saveCard" >Save</button></td>
+		<td>{{#unless isBlank}}<button class="btn btn-deleteCard" >Delete</button>{{/unless}}</td>
 	</tr>
 </template>

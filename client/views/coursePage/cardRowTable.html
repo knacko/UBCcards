@@ -17,20 +17,13 @@
 				{{> cardRow }}
 			{{/each}}
 
-
-
-
-
 	{{else}}
 	
-			{{> cardRow blank=true}}
-	
+			{{> cardRow blank="true" code=courseCode}}
+			
 			{{#each card}}
-				{{> cardRow }}
+				{{> cardRow}}
 			{{/each}}
-
-
-
 
 {{/if}}	
 
