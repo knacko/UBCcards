@@ -20,8 +20,15 @@ Template.courseList.events({
     target.text.value = '';
 
   },
-
+  
+  'click #addCourse': function(e) {
+    e.preventDefault();
+    
+    $('#courseAddModal').modal('show');
+  }
 });
+  
+ 
 Template.courseList.helpers ({
 	
 	course() {
@@ -49,3 +56,22 @@ Template.courseList.helpers ({
 		
 	},
 });
+
+Template.courseAddModalTemplate.events({
+	
+  'click #saveCourse': function(e) {
+    e.preventDefault();
+    
+	Courses.insert({
+      name: $('#courseName').val(),
+	  courseCode: $('#courseCode').val(),
+	  creator: Meteor.userId(),
+      created: new Date(), // current time
+	  students: [],
+    }, (error, result) => {});
+	
+
+    $('#courseAddModal').modal('hide');
+  }
+});
+

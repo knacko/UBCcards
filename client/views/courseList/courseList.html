@@ -1,28 +1,44 @@
 <template name="courseList">
 
-	 <form class="new-course">
-
-        <input type="text" name="text" placeholder="Type to add new course" />
-		
-		
-
-    </form>
-
-	 <form class="new-course">
-  Course name:<br>
-  <input type="text" name="firstname" value="Mickey"><br>
-  Course code:<br>
-  <input type="text" name="lastname" value="Mouse"><br><br>
-  <input type="submit" value="Submit">
-</form> 
+	<a href="#" id="addCourse" class="btn btn-primary">Add Course</a>
 	
-	
-	
-	
-	
-		{{> courseRowTable title="Enrolled Courses" col=enrolledCourse}}
-	
- 
+	{{> courseRowTable title="Enrolled Courses" col=enrolledCourse}} 
 	{{> courseRowTable title="Available Courses" col=notEnrolledCourse}}
  
+	{{> courseAddModalTemplate}}
+ 
+</template>
+
+
+<template name="courseAddModalTemplate">
+<div class="modal fade" id="courseAddModal">
+    <div class="modal-dialog modal-m">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title">Add course...</h4>
+        </div>
+
+        <div class="modal-body">
+          <label for="name">Course Name: </label>
+          <input type="text" id="courseName" />
+        </div>
+
+		 <div class="modal-body">
+          <label for="name">Course code: </label>
+          <input type="text" id="courseCode" />
+        </div>
+		
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" id="saveCourse">Save</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
 </template>
