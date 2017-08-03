@@ -25,23 +25,39 @@ Template.courseRow.events({
 	
 	"click .btn-enrollCourse": function (e) {
 		
+		if (!Meteor.user()) {
+			
+			toastr["error"]("You must be logged in to do this");
+		
+	} else {
+		
 		Courses.update({_id: this._id}, {$push: {students: Meteor.userId()}});
 		
 		toastr["success"]("Added you to " + this.name);
 		
 		console.log("Enrolled " + Meteor.userId() + " in " + this.name + "/" + this._id);
 		
+	}
 		e.preventDefault();
 		e.stopPropagation();
 	},
 		
 	"click .btn-dropCourse": function (e) {
 		
+		if (!Meteor.user()) {
+			
+			toastr["error"]("You must be logged in to do this");
+		
+	} else {
+		
+		
 		Courses.update({_id: this._id}, {$pull: {students: Meteor.userId()}});
 		
 		toastr["info"]("Removed you from " + this.name);
 		
 		console.log("Dropped " + Meteor.userId() + " from " + this.name);
+		
+	}
 		
 		e.preventDefault();
 		e.stopPropagation();

@@ -13,6 +13,14 @@ Template.courseRowTable.helpers ({
 		return c;
 	},
 	
+	notEnrolledCourse() {
+		var c = Courses.find({},{sort:{name: 1}});
+		console.log("Found courses: " + c.count());	
+		return c;
+	},
+	
+	
+	
 	enrolledCourse() {
 		var c = Courses.find({students: Meteor.userId()}, {sort:{name: 1}});
 		console.log("Found enrolled courses: " + c.count());	
