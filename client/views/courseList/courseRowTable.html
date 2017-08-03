@@ -1,10 +1,6 @@
 <template name="courseRowTable">
 	<div class="RowTableTitle">
-		{{#if showJustEnrolled}}
-			<h3>Enrolled Courses</h3>
-		{{else}}
-			<h3>All Courses</h3>
-		{{/if}}
+			<h3>{{title}}</h3>
 	</div>
 	<div class="courseRowTableContent ">
 		<table class="table table-rollover" >
@@ -19,20 +15,15 @@
 			</tr>
 			</thead>
 			<tbody>
-			{{#if showJustEnrolled}}
-				{{#if enrolledInACourse}}
-					{{#each enrolledCourse}}
-						{{> courseRow }}
-					{{/each}}
-				{{else}}
-					<tr><td colspan="6" style="text-align:center">No currently enrolled courses</td></tr>
-				{{/if}}
-			{{else}}
-				{{#each course}}
+			
+			{{#if nonEmpty col}}
+				{{#each col}}
 					{{> courseRow }}
 				{{/each}}
-			{{/if}}
-			</tbody>
+			{{else}}
+				<tr><td colspan="6" style="text-align:center">No courses found</td></tr>
+				{{/if}}
+				</tbody>
 		</table>
 	</div>
 </template>

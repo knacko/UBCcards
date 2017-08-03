@@ -3,13 +3,26 @@
 	 <form class="new-course">
 
         <input type="text" name="text" placeholder="Type to add new course" />
+		
+		
 
     </form>
 
+	 <form class="new-course">
+  Course name:<br>
+  <input type="text" name="firstname" value="Mickey"><br>
+  Course code:<br>
+  <input type="text" name="lastname" value="Mouse"><br><br>
+  <input type="submit" value="Submit">
+</form> 
 	
-		{{> courseRowTable showJustEnrolled="true"}}
+	
+	
+	
+	
+		{{> courseRowTable title="Enrolled Courses" col=enrolledCourse}}
 	
  
-	{{> courseRowTable}}
+	{{> courseRowTable title="Available Courses" col=notEnrolledCourse}}
  
 </template>
