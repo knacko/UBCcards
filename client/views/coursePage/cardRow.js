@@ -1,14 +1,11 @@
 import './cardRow';
 
+
 Template.cardRow.onCreated(function() {
   
   if (!this.blank) {
 	  
 	console.log("card id: " + this._id);
-	
-	$("#front"+this._id).val(this.flipfront); 
-	$("#back"+this._id).val(this.flipback); 
-	$("#tags"+this._id).val(this.tags); 
 	  
   }  
 });
@@ -29,47 +26,42 @@ Template.cardRow.helpers ({
 Template.cardRow.events({
 	
 	"click .btn-saveCard": function (e) {
+		
+	e.preventDefault();
+    e.stopPropagation();
 
 	if (!Meteor.user()) {
 			
-			toastr["error"]("You must be logged in to do this");
-		
-	} else {
-	
-	
-	
+		toastr["error"]("You must be logged in to do this");
+		return;
+
+	}
 	
 	if (this.blank=="true")	{
 		Cards.insert({
 			courseCode: this.code,
-			flipfront: $("#front").val(),
-			flipback: $("#back").val(),
-			tags: $("#tags").val(),
+			flipfront: $("#front").html(),
+			flipback: $("#back").html(),
+			tags: $("#tags").html(),
 			dataType: "flip"
 		});
 		
-		$("#front").val(""); 
-		$("#back").val(""); 
-		$("#tags").val(""); 
+		$("#front").html(""); 
+		$("#back").html(""); 
+		$("#tags").html(""); 
 	
 	} else {
 		Cards.update(
 			this._id
 		,{
 			$set: {
-				flipfront: $("#front"+this._id).val(),
-				flipback: $("#back"+this._id).val(),
-				tags: $("#tags"+this._id).val(),
+				flipfront: $("#front"+this._id).html(),
+				flipback: $("#back"+this._id).html(),
+				tags: $("#tags"+this._id).html(),
 				updated: new Date()
 			}
 		});
 	}
-
-	}
-	
-	e.preventDefault();
-    e.stopPropagation();
-	
 	
   },
 		
