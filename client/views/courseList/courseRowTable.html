@@ -1,11 +1,12 @@
 <template name="courseRowTable">
 
-	<table style="vertical-align: center">
+	<table class="header">
 	<tr>
 		<td width="99%"><h3>{{title}}</h3></td>
+		<td class="btn"></td>
 		{{#if buttons}}
 			{{> courseAddModalTemplate}}
-			<td width="1%"><button class="btn" id="btn-addCourse">Add Course</button></td>
+			<td width="1%"><button class="btn header-btn" id="btn-addCourse">Add Course</button></td>
 		{{/if}}
 	</tr>
 	

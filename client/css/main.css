@@ -97,6 +97,7 @@ body .modal-dialog { /* Width */
     max-width: 100%;
     width: auto !important;
     display: inline-block;
+	color: black;
 }
 
 .modal.in{
@@ -130,6 +131,34 @@ body .modal-dialog { /* Width */
 
 }
 
+.header {
+	background-color: #002145;
+	vertical-align: center;
+  border:0;
+	
+      border-radius:6px;
+	  color: white;
+}
+
+.header-btn{
+	
+	background-color: #0055B7;
+      border-radius:6px;
+  box-shadow:2px 2px 8px rgba(0,0,0,.3);
+  border:0;
+  margin-right: 5px;
+  
+}
+
+.header-btn:hover {
+		background-color: #003268;
+		color: white;
+	}
+
+	.header-btn:active {
+		background-color: #00A7E1;
+		color: white;
+	}
 
 
 }
