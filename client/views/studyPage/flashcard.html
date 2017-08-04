@@ -1,0 +1,27 @@
+
+<template name="cardHolder">
+<div style="align:center">
+	{{#with randomCard}}
+		<div id="card" class="card"> 
+		<div class="front"> 
+			<div class="card-body card-front">
+				{{{flipfront}}}
+			</div>
+		</div> 
+		<div class="back" >
+			<div class="card-body card-back">
+				<div class="divinput" contentEditable="false">
+				{{#if showCard}}
+				{{{flipback}}}
+				{{/if}}
+				</div>
+			</div>
+		</div> 
+	</div>
+	{{/with}}
+
+<button class="btn btn-previousCard" style="margin:5px; width:15%">&lt;</button>
+<button class="btn btn-flipCard" style="margin:5px; width:15%">Show</button>
+<button class="btn btn-nextCard" style="margin:5px; width:15%">&gt;</button>
+</div>
+</template>
