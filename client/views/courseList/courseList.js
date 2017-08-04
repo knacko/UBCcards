@@ -1,25 +1,6 @@
 import './courseList.html';
 
 Template.courseList.events({
-
-  'submit .new-course'(event) {
-	  
-    event.preventDefault();
-
-    const target = event.target;
-    const text = target.text.value;
-
-    Courses.insert({
-      name: text,
-	  courseCode: ("" + Math.floor((Math.random() * 10000) + 1)),
-	  creator: "todd",
-      created: new Date(), // current time
-	  students: [],
-    }, (error, result) => {});
-
-    target.text.value = '';
-
-  },
   
   'click #addCourse': function(e) {
     e.preventDefault();
@@ -60,17 +41,29 @@ Template.courseList.helpers ({
 Template.courseAddModalTemplate.events({
 	
   'click #saveCourse': function(e) {
+	  
     e.preventDefault();
     
+	var modalName = $('#courseName').val();
+	var modalCourseCode = $('#courseCode').val();
+		
+		
+	var c = Courses.find({$or: [{name: modalName},{courseCode: modalCourseCode}]}, {});
+	if (c.count() != 0) {
+		toastr["error"]("Course already exists with that name or code");
+		return;
+	}
+		
 	Courses.insert({
-      name: $('#courseName').val(),
-	  courseCode: $('#courseCode').val(),
+      name: modalName,
+	  courseCode: modalCourseCode,
 	  creator: Meteor.userId(),
       created: new Date(), // current time
 	  students: [],
     }, (error, result) => {});
 	
-
+    toastr["success"]("Added " + modalCourseCode + "<br>   " + modalName);
+	
     $('#courseAddModal').modal('hide');
   }
 });
