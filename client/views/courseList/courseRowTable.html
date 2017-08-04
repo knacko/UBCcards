@@ -1,17 +1,27 @@
 <template name="courseRowTable">
-	<div class="RowTableTitle">
-			<h3>{{title}}</h3>
-	</div>
+
+	<table style="vertical-align: center">
+	<tr>
+		<td width="99%"><h3>{{title}}</h3></td>
+		{{#if buttons}}
+			{{> courseAddModalTemplate}}
+			<td width="1%"><button class="btn" id="btn-addCourse">Add Course</button></td>
+		{{/if}}
+	</tr>
+	
+	</table>
+	
+
 	<div class="courseRowTableContent ">
 		<table class="table table-rollover" >
 			<thead>
 			<tr>
-				<th width="40%" style="text-align:left">Name</th>
-				<th width="12%" style="text-align:left">Code</th>
-				<th width="12%" style="text-align:center">Enrolled</th>
-				<th width="12%" style="text-align:center">Flashcards</th>
-				<th width="12%" ><!-- enroll button --></th>
-				<th width="12%" ><!-- study button --></th>
+				<th width="10%" style="text-align:left">Code</th>
+				<th width="78%" style="text-align:left">Name</th>
+				<th width="5%" style="text-align:center">Enrolled</th>
+				<th width="5%" style="text-align:center">Cards</th>
+				<th width="1%" ><!-- enroll button --></th>
+				<th width="1%" ><!-- study button --></th>
 			</tr>
 			</thead>
 			<tbody>
@@ -26,5 +36,40 @@
 				</tbody>
 		</table>
 	</div>
-</template>
+		
 	
+</template>
+
+
+<template name="courseAddModalTemplate">
+<div class="modal" id="courseAddModal">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title">Add course...</h4>
+        </div>
+
+        <div class="modal-body">
+          <label for="name">Course Name: </label>
+          <input type="text" id="courseName" />
+        </div>
+
+		 <div class="modal-body">
+          <label for="name">Course code: </label>
+          <input type="text" id="courseCode" />
+        </div>
+		
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" id="btn-saveCourse">Save</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+</template>

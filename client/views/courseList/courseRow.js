@@ -69,6 +69,9 @@ Template.courseRow.events({
 		
 		console.log("Clicked on course: " + $(e.target).closest('tr').data('name') + "/" + courseID);
 		
+		Session.set('currentCourseCode',this.courseCode);
+		Session.set('currentCourseName',this.courseCode);
+
 		Router.go('/courses/' + courseID);
 		
 		e.preventDefault();
@@ -80,6 +83,9 @@ Template.courseRow.events({
 		var courseID = this._id;
 		
 		console.log("Clicked on course: " + courseID);
+		
+		Session.set('currentCourse',this.courseCode);
+		Session.set('currentCourseName',this.courseCode);
 		
 		Router.go('/courses/' + courseID + '/study/');
 		

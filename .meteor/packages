@@ -28,3 +28,8 @@ aldeed:autoform
 chrismbeckett:toastr
 iron:router
 templates:tabs
+jquery
+monbro:iron-router-breadcrumb
+session
+random
+keypress:keypress
