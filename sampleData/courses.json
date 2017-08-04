@@ -1,0 +1,70 @@
+    {
+	  "_id" : "randomnumber1",
+      "courseCode" : "BIOL 116",
+      "name" : "Biology for Science Majors I",
+      "creator" : "tester",
+	  "students": []
+    }
+	{ 
+      "_id" : "randomnumber2",
+      "courseCode" : "BIOL 117",
+      "name" : "Evolution and Ecology",
+      "creator" : "tester",
+	  "students": []
+    }
+	{ 
+      "_id" : "randomnumber3",
+      "courseCode" : "BIOL 122",
+      "name" : "Physiology of Multicellular Organisms",
+      "creator" : "tester",
+	  "students": []
+    }
+	{ 
+      "_id" : "randomnumber4",
+      "courseCode" : "BIOL 125",
+      "name" : "Biology for Science Majors II",
+      "creator" : "tester",
+	  "students": []
+    }
+	{ 
+      "_id" : "randomnumber5",
+      "courseCode" : "BIOL 131",
+      "name" : "Human Anatomy and Physiology I",
+      "creator" : "tester",
+	  "students": []
+    }
+	{ 
+      "_id" : "randomnumber6",
+      "courseCode" : "BIOL 133",
+      "name" : "Human Anatomy and Physiology II",
+      "creator" : "tester",
+	  "students": []
+    }
+	{ 
+      "_id" : "randomnumber7",
+      "courseCode" : "BIOL 200",
+      "name" : "Cell Biology",
+      "creator" : "tester",
+	  "students": []
+    }
+	{ 
+      "_id" : "randomnumber8",
+      "courseCode" : "BIOL 201",
+      "name" : "Introduction to Evolution and Ecology",
+      "creator" : "tester",
+	  "students": []
+    }
+	{ 
+      "_id" : "randomnumber9",
+      "courseCode" : "BIOL 202",
+      "name" : "Introduction to Biostatistics",
+      "creator" : "tester",
+	  "students": []
+    }
+	{ 
+      "_id" : "randomnumber10",
+      "courseCode" : "BIOL 204",
+      "name" : "Vertebrate Structure and Function",
+      "creator" : "tester",
+	  "students": []
+    }

@@ -69,7 +69,7 @@ Template.courseRow.events({
 		
 		console.log("Clicked on course: " + $(e.target).closest('tr').data('name') + "/" + courseID);
 		
-		Router.go('/course/' + courseID);
+		Router.go('/courses/' + courseID);
 		
 		e.preventDefault();
         e.stopPropagation();
@@ -81,7 +81,7 @@ Template.courseRow.events({
 		
 		console.log("Clicked on course: " + courseID);
 		
-		Router.go('/study/' + courseID);
+		Router.go('/courses/' + courseID + '/study/');
 		
 		e.preventDefault();
         e.stopPropagation();

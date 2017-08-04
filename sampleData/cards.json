@@ -1,0 +1,2790 @@
+
+    {
+      "flipfront" : "Define: Microbiology",
+      "flipback" : "The study of organisms to small to be seen by the naked eye.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard1"
+    }
+    {
+      "flipfront" : "What are the cellular organisms studied in Microbiology?",
+      "flipback" : "Bacteria, archae, protists, fungi, larger parasites",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard2"
+    }
+    {
+      "flipfront" : "Define: Bacteria",
+      "flipback" : "- prokaryotic (few exceptions)\n - usually unicellular\n - most have cell walls with peptidoglycan\n - survive broad range of environments\n - typically non-pathogenic\n - often detritivores\n - reproduce only by binary fusion",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard3"
+    }
+    {
+      "flipfront" : "Give 3 examples of bacteria.",
+      "flipback" : "- Rhodospirillum rubrum\n - Cyanobacteria\n - Spirillum voluntans\n - Vibrio cholerae\n - Clostriium botulinum",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard4"
+    }
+    {
+      "flipfront" : "Define: Archae",
+      "flipback" : "- vast majority are prokaryotic\n - usually unicellular\n - lack peptidoglycan in their cell walls\n - unique membrane lipids\n - distinctive rRNA sequences\n - can grow in extreme environments (very salty, high temps)\n - none shown to cause disease",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard5"
+    }
+    {
+      "flipfront" : "Give 3 examples of archaea.",
+      "flipback" : "- Halobacterium salinarum",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard6"
+    }
+    {
+      "flipfront" : "Define: Protist",
+      "flipback" : "- eukaryotic\n - include algae, protozoa, slime molds\n - generally unicellular\n - larger than bacteria",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard7"
+    }
+    {
+      "flipfront" : "Define: Algae",
+      "flipback" : "- eukaryotic\n - protist\n - most are photosynthetic (except Prototheca)\n - some are motile\n - some unicellular\n - rarely cause disease (only Prototheca)",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard8"
+    }
+    {
+      "flipfront" : "Give 3 examples of algae.",
+      "flipback" : "- Prototheca",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard9"
+    }
+    {
+      "flipfront" : "What is unique about Prototheca?",
+      "flipback" : "Prototheca - unique because it's not photosynthetic, and is the only algae to cause disease.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard10"
+    }
+    {
+      "flipfront" : "Define: Protozoa",
+      "flipback" : "- type of protist\n - eukaryotic\n - nearly all microscopic\n - non-photosynthetic\n - typically motile\n - some cause disease",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard11"
+    }
+    {
+      "flipfront" : "Give 3 examples of protozoans.",
+      "flipback" : "- Giardia intestinalis\n - Entamoeba histolytica",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard12"
+    }
+    {
+      "flipfront" : "What are the life stages of parasitic protozoans called?",
+      "flipback" : "Feeding stage - trophozoite\n Dispersive stage - cyst",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard13"
+    }
+
+    {
+      "flipfront" : "Define: Slime Mold",
+      "flipback" : "- type of protist\n - eukaryotic\n - changes from protozoa during one stage of life cycle, to a fungi in the other\n - some cause diseases in plants\n - some have vibrant colors",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard14"
+    }
+    {
+      "flipfront" : "Define: Fungi",
+      "flipback" : "- type of protist\n - eukaryotic\n - unicellular or multicellular\n - microscopic or macroscopic\n - usually sessile\n - some cause disease\n - source of antibiotics\n - include yeasts, molds and mushrooms",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard15"
+    }
+    {
+      "flipfront" : "Give 3 examples of fungi.",
+      "flipback" : "- ringworm \n - Candida albicans",
+      "tags" : "",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard16"
+    }
+    {
+      "flipfront" : "Define: Yeast",
+      "flipback" : "- type of fungi\n - eukaryotic\n - unicellular\n - microscopic\n - no filamentous hyphae",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard17"
+    }
+    {
+      "flipfront" : "Give 3 examples of yeasts.",
+      "flipback" : "- Saccharomyces cerevisiae",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard18"
+    }
+    {
+      "flipfront" : "Define: Mold",
+      "flipback" : "- type of fungi\n - eukaryotic\n - multicellular\n - have filamentous hyphae",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 116",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard19"
+    }
+    {
+      "flipfront" : "Define: Mushroom",
+      "flipback" : "- type of fungi\n - eukaryotic\n - multicellular\n - macroscopic 'fruiting body'\n -",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard20"
+    }
+    {
+      "flipfront" : "Define: Larger parasites",
+      "flipback" : "- multicellular\n - eukaryotic\n - macroscopic\n - disease causing\n - can manipulate immune response",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard21"
+    }
+    {
+      "flipfront" : "Give 3 examples of larger parasites.",
+      "flipback" : "- tapeworms\n - flukes\n - round worms",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard22"
+    }
+    {
+      "flipfront" : "What are the acellular organisms studied in Microbiology?",
+      "flipback" : "Viruses, viroids, satellites, prions",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard23"
+    }
+    {
+      "flipfront" : "Define: Virus",
+      "flipback" : "- acellular\n - must invade host to multiply (obligate intracellular parasite)\n - RNA or DNA enclosed in protein coat\n - can cause major disease",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard24"
+    }
+    {
+      "flipfront" : "Define: Viroid",
+      "flipback" : "- acellular\n - composed of single strands of circular RNA\n - lack a protein coat\n - typically cause plant diseases",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard25"
+    }
+    {
+      "flipfront" : "Contrast: Viroid and virus",
+      "flipback" : "Viroids lack the protein coat that viruses have",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard26"
+    }
+    {
+      "flipfront" : "Compare: Viroid and virus",
+      "flipback" : "Both have RNA/DNA",
+      "tags" : "",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard27"
+    }
+    {
+      "flipfront" : "Define: Satellite",
+      "flipback" : "A subviral agent that requires a co-infector (helper or master virus) to infect a cell",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard28"
+    }
+    {
+      "flipfront" : "Define: Prion",
+      "flipback" : "- misfolded protein\n - 'infectious' - can conformationally change normal protein on contact\n - no cure for prion diseases\n - diseases known as spongiform encephalopathy",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard29"
+    }
+    {
+      "flipfront" : "Why are microorganisms important? (6)",
+      "flipback" : "- first living organisms\n - msot populous group of organisms and ubiquitous in distribution\n - ecosystems depend on activities (i.e. as detritivores)\n - source of nutrients (i.e. nitrogen fixing, photosynthesis)\n - biotechnology (i.e. food microbiology)\n - can cause global influence (i.e. Irish potato famine)",
+      "tags" : "Topic 1, list",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard30"
+    }
+    {
+      "flipfront" : "What is the historical significance of the Irish Potato Famine? What caused it?",
+      "flipback" : "The Irish Potato Famine causes a massive immigration to North America to escape starvation, as a fungus causing potato rot destroyed a large portion of the Irish food supply.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard31"
+    }
+    {
+      "flipfront" : "What microbe causes the bubonic plague?",
+      "flipback" : "Yersinia pestis",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard32"
+    }
+    {
+      "flipfront" : "What disease does Yersinia pestis cause? How is it transmitted?",
+      "flipback" : "Bubonic plague - carried by fleas.",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard33"
+    }
+    {
+      "flipfront" : "What were the medieval treatment methods of disease? (3)",
+      "flipback" : "- Isolation\n - Destruction of \"contaminated\" material\n - Natural remedies (often placebo)",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard34"
+    }
+    {
+      "flipfront" : "What is the major contribution of Fracastoro?",
+      "flipback" : "Suggested that invisible organisms causes disease (which eventually became germ theory).",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard35"
+    }
+    {
+      "flipfront" : "Who first suggested that invisible organisms cause disease?",
+      "flipback" : "Fracastoro",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 117",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard36"
+    }
+    {
+      "flipfront" : "What is the major contribution of Leeuwenhoek?",
+      "flipback" : "First direct observations of bacteria through the first functional microscope.\n \n He used a small glass bead in an apparatus to see 'animalcules'.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 122",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard37"
+    }
+    {
+      "flipfront" : "Who is responsible for the first direct observations of bacteria?",
+      "flipback" : "Leeuwenhoek through the first functional microscope.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 122",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard38"
+    }
+    {
+      "flipfront" : "Define: Spontaneous Generation",
+      "flipback" : "The idea that living organisms can develop from nonliving or decomposing matter",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 122",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard39"
+    }
+    {
+      "flipfront" : "What is the major contribution of Redi? How?",
+      "flipback" : "Disproved spontaneous generation for higher organisms.\n \n He showed that covered meat will not develop maggots, while uncovered meat was exposed to flies, and their maggot offspring.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 122",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard40"
+    }
+    {
+      "flipfront" : "Who disproved spontaneous generation in higher organisms? How?",
+      "flipback" : "Redi.\n \n He showed that covered meat will not develop maggots, while uncovered meat was exposed to flies, and their maggot offspring.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 122",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard41"
+    }
+    {
+      "flipfront" : "What is the major contribution of Needham? How?",
+      "flipback" : "The misconception that spontaneous generation occurs in microorganisms.\n \n He boiled mutton, then sealed it, but microorganisms invaded between the boiling and sealing, causing the broth to become cloudy",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 122",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard42"
+    }
+    {
+      "flipfront" : "What is the major contribution of Spallanzani? How?",
+      "flipback" : "Gave support against spontaneous generation for microorganisms. Concluded that either air carried germs to the medium, or a 'vital force' required for life is present in air, but is destroyed by heating.\n \n He sealed broth in flasks, then boiled it. There was no growth of microorganisms in the flask.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 122",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard43"
+    }
+    {
+      "flipfront" : "What is the major contribution of Pasteur? How?",
+      "flipback" : "Disproved spontaneous generation.\n \n Used swan-neck flask to isolate the boiled broth from microorganisms. Air could freely move, but microbes would be trapped in the lower section of the neck.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 122",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard44"
+    }
+    {
+      "flipfront" : "What is the major contribution of Jenner? How?",
+      "flipback" : "Developed the first vaccine (for smallpox).\n \n Observed that milkmaids did not contract smallpox. Concluded that cowpox infection gave resistance to smallpox. He infected a child with cowpox, allowed recovery, then smallpox. The kid didn't die from smallpox.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 122",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard45"
+    }
+    {
+      "flipfront" : "Who developed the smallpox vaccine? How?",
+      "flipback" : "It was developed by Jenner. \n \n Observed that milkmaids did not contract smallpox. Concluded that cowpox infection gave resistance to smallpox. He infected a child with cowpox, allowed recovery, then smallpox. The kid didn't die from smallpox.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 122",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard46"
+    }
+    {
+      "flipfront" : "Why is the first vaccine considered 'controversial' in its origins?",
+      "flipback" : "The first trial was human experimentation without informed consent. Jenner inoculated a local boy, without any clinical testing. It would be considered highly unethical today.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 122",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard47"
+    }
+    {
+      "flipfront" : "What is the name of the first vaccine recipient? What disease was he inoculated form?",
+      "flipback" : "James Phipps was the first recipient of the smallpox vaccine.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 122",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard48"
+    }
+    {
+      "flipfront" : "What is the major contribution of James Phipps?",
+      "flipback" : "He was the first vaccine recipient - he didn't die from smallpox after being infected with cowpox.\n \n He also stopped the Nazi's from raiding Jenner's tomb.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard49"
+    }
+    {
+      "flipfront" : "Who coined the term 'vaccine'? What was it in response to?",
+      "flipback" : "Jenner.\n \n He used it to describe the use of the cowpox virus to prevent the smallpox virus.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard50"
+    }
+    {
+      "flipfront" : "What is the Greek root word for 'vaccine'? Why is it named as such.",
+      "flipback" : "Vacca (means cow).\n \n The first vaccine was cowpox, used to prevent smallpox.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard51"
+    }
+    {
+      "flipfront" : "What causes smallpox? What are the symptoms?",
+      "flipback" : "Variola major and Variola minor.",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard52"
+    }
+    {
+      "flipfront" : "Variola major and Variola minor cause what disease?",
+      "flipback" : "Smallpox",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard53"
+    }
+    {
+      "flipfront" : "Why is cow pox preferable to smallpox?",
+      "flipback" : "Cow pox, in humans, presents as a lesions on the hands or face, that will typically ulcerate. It has a low mortality rate.\n \n Smallpox, in humans, has a high mortality rate.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard54"
+    }
+    {
+      "flipfront" : "What is the major contribution of Bassi?",
+      "flipback" : "Showed that fungus causes a disease (silkworms)",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard55"
+    }
+    {
+      "flipfront" : "Who first showed that fungus can cause disease?",
+      "flipback" : "Bassi",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard56"
+    }
+    {
+      "flipfront" : "What is the major contribution of Semmelweis? How?",
+      "flipback" : "Established a link between autopsies and childbed fever.\n \n Recognized that doctors who worked with dead bodies would have a higher mortality rate with delivering infants than the midwives who exclusively delivered babies.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard57"
+    }
+    {
+      "flipfront" : "Who linked autopsies to childbed fever? How?",
+      "flipback" : "Semmelweis.\n \n Recognized that doctors who worked with dead bodies would have a higher mortality rate with delivering infants than the midwives who exclusively delivered babies.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard58"
+    }
+    {
+      "flipfront" : "What is the major contribution of John Snow? How?",
+      "flipback" : "First public health research: showed cholera was transmitted by polluted water.\n \n Plotted points on a map for cholera cases, saw a cluster around a particular water pump. After the pump was decommissioned, cholera incidents stopped.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard59"
+    }
+    {
+      "flipfront" : "Who is the father of epidemiology? Why?",
+      "flipback" : "John Snow.\n \n Plotted points on a map for cholera cases, saw a cluster around a particular water pump. After the pump was decommissioned, cholera incidents stopped.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard60"
+    }
+    {
+      "flipfront" : "Define: Epidemiology",
+      "flipback" : "The branch of medicine that deals with the incidence, distribution, and possible control of diseases and other factors relating to health",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard61"
+    }
+    {
+      "flipfront" : "What bacteria causes cholera?",
+      "flipback" : "Vibrio cholerae",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard62"
+    }
+    {
+      "flipfront" : "What disease does Vibrio cholerae cause?",
+      "flipback" : "Cholera",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard63"
+    }
+    {
+      "flipfront" : "What is the major contribution of Lister? How?",
+      "flipback" : "Gave indirect evidence that disease is caused by microorganisms.\n \n Used carbolic acid to sterilize instruments and dressings.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard64"
+    }
+    {
+      "flipfront" : "Who was responsible for the first sterilization of medical tools?",
+      "flipback" : "Lister pioneered the first use of carbolic acid (phenol) to sterilize medical tools.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 131",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard65"
+    }
+    {
+      "flipfront" : "What is the major contribution of Halstead? How?",
+      "flipback" : "Developed the first rubber gloves.\n \n His nurse developed contact dermatitis from washing with carbolic acid, so he went to Goodyear to develop thin rubber gloves.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 200",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard66"
+    }
+    {
+      "flipfront" : "Who is responsible for the development of rubber gloves for microbe protection, and why did he do it?",
+      "flipback" : "Halstead asked Goodyear to develop thin rubber gloves because his nurse developed contact dermatitis from washing with carbolic acid.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 200",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard67"
+    }
+	
+    {
+      "flipfront" : "What is the major contributions of Pasteur? (4)",
+      "flipback" : "- proved germ theory - used swan neck flasks to prevent bacteria from reaching broth, but would still allow air.\n - created rabies vaccine - Used dried spinal cord of rabies-infected rabbits to create rabies vaccine.\n - pasteurization - heating food to a high temperature to kill microbes\n - yeast converts sugar to alcohol",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 200",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard68"
+    }
+    {
+      "flipfront" : "Why is Joseph Meister important?",
+      "flipback" : "He was the first recipient of the rabies vaccine.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 200",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard69"
+    }
+    {
+      "flipfront" : "Who received the first rabies vaccine? From who?",
+      "flipback" : "Joseph Meister received the first rabies vaccine from Pasteur",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 200",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard70"
+    }
+    {
+      "flipfront" : "Define: Germ theory.",
+      "flipback" : "Microbes can invade other organisms and cause disease.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 200",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard71"
+    }
+    {
+      "flipfront" : "Who initially suggested Germ Theory? Who confirmed the theory?",
+      "flipback" : "Fracastoro suggested that microorganisms cause disease, while the experiment of Pasteur confirmed them.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 200",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard72"
+    }
+    {
+      "flipfront" : "What is the major contribution of Koch? How?",
+      "flipback" : "Provided proof of germ theory through the Koch postulates.\n \n Isolated anthrax from cows, and reproduced the disease by infecting healthy cows.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard73"
+    }
+    {
+      "flipfront" : "What is the first Koch postulate?",
+      "flipback" : "The microorganisms must be present in all accounts of the disease, and absent from all healthy individuals.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard74"
+    }
+    {
+      "flipfront" : "What is the second Koch postulate?",
+      "flipback" : "You must be isolated and grow the suspected microorganism in a pure culture.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard75"
+    }
+    {
+      "flipfront" : "What is the third Koch postulate?",
+      "flipback" : "When the isolated microorganism is introduced to the health host, the same disease must result.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard76"
+    }
+    {
+      "flipfront" : "What is the fourth Koch postulate?",
+      "flipback" : "The same microbe that was used to infect the host, must be isolated again.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard77"
+    }
+    {
+      "flipfront" : "Where does the 1st Koch postulate fail?",
+      "flipback" : "Asymptomatic Carriers - Typhoid Mary had typhoid bacteria, but did not affect her\n \n Not universally infecting - some disease, like polio, only exhibit extreme symptoms in a small number of people",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard78"
+    }
+    {
+      "flipfront" : "Where does the 2nd Koch postulate fail?",
+      "flipback" : "Viruses - cannot grow without cellular components\n \n Unknown target - if the animal is unknown or too rare to test on",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard79"
+    }
+	
+    {
+      "flipfront" : "Where does the 3rd Koch postulate fail?",
+      "flipback" : "Unethical to test - Ebola is so deadly, it is unethical to use humans as test subjects",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard80"
+    }
+    {
+      "flipfront" : "What techniques were developed in Koch's lab? (4)",
+      "flipback" : "- agar as a culture medium\n - petri dish\n - nutrient broth and nutrient agar\n - methods for isolating microorganisms (i.e. streaking for isolated colonies)",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard81"
+    }
+    {
+      "flipfront" : "What microbe causes anthrax?",
+      "flipback" : "Bacillus anthracis",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard82"
+    }
+    {
+      "flipfront" : "What disease does Bacillus anthracis cause?",
+      "flipback" : "Anthrax",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard83"
+    }
+	{
+      "flipfront" : "Who used anthrax for testing?\n What was it tested on?\n What was being tested?",
+      "flipback" : "Koch used anthrax on guinea pigs when formulating his postulates.",
+      "tags" : "Topic 1, microbe, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard84"
+    }
+    {
+      "flipfront" : "What is the major contributions of Hesse? How?",
+      "flipback" : "Use of agar as a culture medium.\n \n His wife suggested it, as it is used in fruit preserves. It is an effective setting agent that is indigestible to most organisms.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard85"
+    }
+    {
+      "flipfront" : "Who thought to use agar as a culture medium? Why is it ideal?",
+      "flipback" : "Hesse, while working in Koch's lab. \n \n His wife suggested agar, as it is used as a setting agent for fruit preserves. It is also indigestible to most organisms.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard86"
+    }
+    {
+      "flipfront" : "Define: Agar",
+      "flipback" : "- jelly-like substance derived from algae\n - indigestible to most organisms\n - often used in petri dishes as a culture medium\n - also used in jams as a setting agent",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard87"
+    }
+    {
+      "flipfront" : "What is the major contributions of Ivanoski and Beijerinck? How?",
+      "flipback" : "Discovery of viruses\n \n Made extracts of plants suffering from tobacco mosaic disease, then passed them through filters that were smaller than bacteria.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard88"
+    }
+    {
+      "flipfront" : "Who discovered viruses? How?",
+      "flipback" : "Ivanoski and Beijerinck.\n \n Made extracts of plants suffering from tobacco mosaic disease, then passed them through filters that were smaller than bacteria.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard89"
+    }
+    {
+      "flipfront" : "What is the major contributions of Winogradsky and Beijerinck? How?",
+      "flipback" : "Chemoautotrophy and nitrogen fixation",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard90"
+    }
+    {
+      "flipfront" : "What is the major contributions of Behring and Kitasato? How?",
+      "flipback" : "Evidence of humoral immunity - took serum from diphtheria infected rabbits, and injected it into healthy rabbits. Those rabbits survived.\n \n Antitoxins for diphtheria and tetanus -",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard91"
+    }
+    {
+      "flipfront" : "What causes diphtheria?",
+      "flipback" : "Corynebacterium diphtheriae",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard92"
+    }
+    {
+      "flipfront" : "What disease is caused by Corynebacterium diphtheriae?",
+      "flipback" : "Diphtheria",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard93"
+    }
+    {
+      "flipfront" : "What causes tetanus?",
+      "flipback" : "Clostridium tetani",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard94"
+    }
+    {
+      "flipfront" : "What disease is caused by Clostridium tetani?",
+      "flipback" : "Tetanus",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard95"
+    }
+    {
+      "flipfront" : "Define: Humoral immunity",
+      "flipback" : "Immune response around the identification of antibodies, which can differentiate host and foreign cells.\n \n Also known as 'antibody-mediated' immunity.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard96"
+    }
+    {
+      "flipfront" : "Define: Antibody",
+      "flipback" : "A y-shaped protein that can differentiate between foreign and host cells, for purposes of immune response.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard97"
+    }
+    {
+      "flipfront" : "Define: Antigen",
+      "flipback" : "A molecule capable of inducing an adaptive immune response - antibodies and antigen receptors on lymphocyte",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard98"
+    }
+    {
+      "flipfront" : "Who first discovered humoral immunity. How?",
+      "flipback" : "Behring and Kitasato.\n \n Took serum from diphtheria infected rabbits, and injected it into healthy rabbits. Those rabbits survived.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard99"
+    }
+    {
+      "flipfront" : "Who developed the diptheria vaccine? How?",
+      "flipback" : "Behring and Kitasato.\n \n Took serum from diphtheria infected rabbits, and injected it into healthy rabbits. Those rabbits survived.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard100"
+    }
+    {
+      "flipfront" : "What is the major contributions of Metchnikoff? How?",
+      "flipback" : "Cell-mediated immunity\n \n Siblings of wife put cactus spines into starfish he was studying, and he discovered that phagocytes gathered at the site of puncture.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard101"
+    }
+    {
+      "flipfront" : "Define: Cell-mediated immunity",
+      "flipback" : "An immune response that will bind antigen-presenting cells to a foreign cell, allowing immune cells to identify the foreign cell.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard102"
+    }
+    {
+      "flipfront" : "Define: Cytokine",
+      "flipback" : "Proteins secreted by immune cells that act as a cell signalling molecule. Produced by lymphocytes, and macrophages.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard103"
+    }
+    {
+      "flipfront" : "Who first discovered cell-mediated immunity? How?",
+      "flipback" : "Metchnikoff.\n \n Siblings of wife put cactus spines into starfish he was studying, and he discovered that phagocytes gathered at the site of puncture.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard104"
+    }
+    {
+      "flipfront" : "What is the major contributions of Fleming? How?",
+      "flipback" : "Developed penicillin\n \n Observed that a colony of Penicillium mold prevented the growth of Staphylococcus bacteria on a plate.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard105"
+    }
+    {
+      "flipfront" : "Who discovered penicillin? How?",
+      "flipback" : "Fleming.\n \n Observed that a colony of Penicillium mold prevented the growth of Staphylococcus bacteria on a plate.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard106"
+    }
+    {
+      "flipfront" : "What is the mechanism of action for penicillin?",
+      "flipback" : "Prevents peptidoglycan synthesis, and the cell will lyse due to osmotic pressure?",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard107"
+    }
+    {
+      "flipfront" : "What antibiotic prevents the synthesis of peptidoglycan?",
+      "flipback" : "Penicillin",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard108"
+    }
+    {
+      "flipfront" : "Describe applied microbiology and give examples.",
+      "flipback" : "Practical problems are solved through applied microbiology. \n \n i.e. Food, wine and industrial microbiology, water and disease treatment",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard109"
+    }
+    {
+      "flipfront" : "What causes tuberculosis?",
+      "flipback" : "Mycobacterium tuberculosis",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard110"
+    }
+    {
+      "flipfront" : "What disease does Mycobacterium tuberculosis cause?",
+      "flipback" : "Tuberculosis is caused by Mycobacterium tuberculosis.",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard111"
+    }
+    {
+      "flipfront" : "Where do mycobacterium get their name from?",
+      "flipback" : "The mycolic acids that are characteristic in their membranes.",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard112"
+    }
+    {
+      "flipfront" : "What causes thrush?",
+      "flipback" : "Candida albicans, a type of yeast, causes thrush.",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard113"
+    }
+    {
+      "flipfront" : "What disease does Candida albicans cause? What are the symptoms?",
+      "flipback" : "Causes thrush, typically in infants and those immunocompromised.\n \n Oral disease that causes white lesions and redness/swelling.",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard114"
+    }
+    {
+      "flipfront" : "What is the difficulty in treating fungal infections?",
+      "flipback" : "Funguses are eukaryotic, so anti-fungal drugs can often affect the host as well.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard115"
+    }
+    {
+      "flipfront" : "Define: Opportunistic infections. Give an example.",
+      "flipback" : "Infections that typically only affect immunocompromised individuals. Healthy individuals are unaffected.\n \n i.e. Thrush",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard116"
+    }
+    {
+      "flipfront" : "What causes Giardia? Where does it come from?",
+      "flipback" : "Giardia lamblia, a protozoan that is found in the feces of beavers",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard117"
+    }
+    {
+      "flipfront" : "Giardia lamblia is responsible for what disease? What are the symptoms?",
+      "flipback" : "Giardia, a disease that reduces nutrient uptake and causes diarrhea.",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard118"
+    }
+    {
+      "flipfront" : "What is the significance of stromatolites with regards to evolution?",
+      "flipback" : "First indicator of evolution of photosynthesis, ~2.5 BYA.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard119"
+    }
+    {
+      "flipfront" : "What is the major contribution of Woese and Fox?",
+      "flipback" : "Using small subunit ribosomal RNAs (SSU rRNAs) to create new system of categorized living organisms. The three domains are archaea, bacteria and eukarya.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard120"
+    }
+    {
+      "flipfront" : "Who developed the 3 domain system? What are the domains?",
+      "flipback" : "Woese and Fox developed the 3 domain system.\n \n Archaea, bacteria and eukarya are the 3 domains.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard121"
+    }
+    {
+      "flipfront" : "Define: Endosymbiotic Hypothesis",
+      "flipback" : "The theory that mitochondria and plastids, including chloroplasts, originated as prokaryotic cells engulfed by an ancestral eukaryotic cell. The engulfed cell and its host cell then evolved into a single organism.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard122"
+    }
+    {
+      "flipfront" : "What evidence do we have for the endosymbiotic hypothesis? (6)",
+      "flipback" : "- Size of organelles are similar to prokaryotes\n - Organelles have similar cell membranes to the parent cell\n - Some organelles have their own distinct DNA, and can reproduce and evolve\n - The function of some organelles matches existing prokaryotes\n - Some organelles produce their own proteins, ribosomes\n - Organelles are affected by antibiotics, similar to prokaryotes",
+      "tags" : "Topic 1, list",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard123"
+    }
+    {
+      "flipfront" : "Describe how mitochondria may have been involved in the endosymbiot hypothesis.",
+      "flipback" : "1. Mitochondia was likely a free-living bacteria\n 2. It was engulfed by a precursor cell\n 3. Provided essential function to host cell (ATP) in exchange for protection and nutrients provided by host cell.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard124"
+    }
+    {
+      "flipfront" : "What are the 3 parts of taxonomy?",
+      "flipback" : "Classification, nomenclature and identification",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard125"
+    }
+    {
+      "flipfront" : "Define: Classification (for taxonomy)",
+      "flipback" : "The arrangement of organisms into groups (taxa)",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard126"
+    }
+    {
+      "flipfront" : "Define: Nomenclature (for taxonomy)",
+      "flipback" : "The assignment of names to a taxa",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard127"
+    }
+    {
+      "flipfront" : "Define: Identification (for taxonomy)",
+      "flipback" : "The determination of taxa to which an organism belongs",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard128"
+    }
+    {
+      "flipfront" : "Who developed the binomial naming system of organisms? Describe it.",
+      "flipback" : "Linnaeus\n \n Formatted as [Genus] [species], using the same capitaliztion. It is written in italics or underlined.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard129"
+    }
+    {
+      "flipfront" : "What is the major contribution of Linnaeus? Describe it.",
+      "flipback" : "The binomial naming system for organisms.\n \n Formatted as [Genus] [species], using the same capitaliztion. It is written in italics or underlined.",
+      "tags" : "Topic 1, person",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard130"
+    }
+    {
+      "flipfront" : "Define: Genus",
+      "flipback" : "Groups of related species.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard131"
+    }
+    {
+      "flipfront" : "Define: Species",
+      "flipback" : "Groups of organisms sharing many common properties.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard132"
+    }
+    {
+      "flipfront" : "What can the scienfic name of an organism tell us?",
+      "flipback" : "- Shape or color of organism\n - Habitat\n - Disease it causes\n - Discoverer\n - Special features",
+      "tags" : "Topic 1, list",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard133"
+    }
+    {
+      "flipfront" : "Give an example of a microbe with a scientific name that describes its habitat.",
+      "flipback" : "- Microcyctis aquaticus (aquatic enviroment)\n - Nitrocystic oceanus (ocean)",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard134"
+    }
+    {
+      "flipfront" : "Give an example of a microbe with a scientific name that describes a special feature.",
+      "flipback" : "- Flavobacterium odiferous (smelly)\n - Proteus vulgarus (sulfur producing = vulgar smell)",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard135"
+    }
+    {
+      "flipfront" : "Give an example of a microbe with a scientific name that describes its shape or color.",
+      "flipback" : "- Bacillius anthracis (rod shaped)\n - Staphylococcus (round, golden, with a grape-like colony)",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard136"
+    }
+    {
+      "flipfront" : "Give an example of a microbe with a scientific name that describes its discoverer",
+      "flipback" : "- Escherichia Coli (Theodore Escherich)",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard137"
+    }
+    {
+      "flipfront" : "Give an example of a microbe with a scientific name that describes the disease it causes.",
+      "flipback" : "- Mycobacterium tuberculosis (tuberculosis)\n - Vibrio cholorae (cholera)\n - Clostridium tetani (tetanus)",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard138"
+    }
+    {
+      "flipfront" : "What disease causes a staph infection?",
+      "flipback" : "Staphylococcus aureus",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard139"
+    }
+    {
+      "flipfront" : "What disease does Staphylococcus aureus cause?",
+      "flipback" : "A staph infection, which are typically skin infections",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard140"
+    }
+    {
+      "flipfront" : "Define: Strain",
+      "flipback" : "Organisms of the same species that have slight differences in attributes.\n \n i.e. physical, metabolic or genetic differences",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard141"
+    }
+    {
+      "flipfront" : "Who is E.coli named after?",
+      "flipback" : "Escherich",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard142"
+    }
+    {
+      "flipfront" : "What is the scientific name of E.coli",
+      "flipback" : "Escherichia Coli",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard143"
+    }
+    {
+      "flipfront" : "Contrast: E.coli K12 and E.coli O157",
+      "flipback" : "Different strains of E.coli - K12 is non-pathenogenic, while O157 is pathogenical (intestinal distress)",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard144"
+    }
+    {
+      "flipfront" : "Why is designating strain important when talking about microbes? Give an example.",
+      "flipback" : "Some microbes have both pathenogenic and non-pathenogenic strains. i.e. E.coli K12 and O157 are path. and non-path, respectively.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard145"
+    }
+    {
+      "flipfront" : "Name an pathenogic strain of E.coli.",
+      "flipback" : "E.coli O157",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard146"
+    }
+    {
+      "flipfront" : "Name an non-pathenogic strain of E.coli.",
+      "flipback" : "E.coli K12",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard147"
+    }
+    {
+      "flipfront" : "What does the O in E.coli O157 stand for?",
+      "flipback" : "Body antigen type",
+      "tags" : "",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard148"
+    }
+    {
+      "flipfront" : "Define: Biovars",
+      "flipback" : "A strain that varies based on biochemical or physiological differences",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard149"
+    }
+    {
+      "flipfront" : "Define: Morphovars",
+      "flipback" : "A strain that varies based on morphological differences",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard150"
+    }
+    {
+      "flipfront" : "Define: Serovars",
+      "flipback" : "A strain that varies based on antigenic properties",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard151"
+    }
+    {
+      "flipfront" : "What are the techniques for determining taxonomy and phylogeny of microbes? (5)",
+      "flipback" : "- morphological\n - physiological\n - metabolic or biochemical\n - ecological\n - DNA, RNA or protein profile",
+      "tags" : "Topic 1, list",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard152"
+    }
+    {
+      "flipfront" : "Describe the ecological characteristics of microbes. (5)",
+      "flipback" : "- life cycle pattern\n - symbiotic relationships\n - infectous\n - habitat preference\n - growth requirements",
+      "tags" : "Topic 1, list",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard153"
+    }
+    {
+      "flipfront" : "Define: SSU rRNA",
+      "flipback" : "- Small subunit ribosomal RNA\n - denote the unique structures between the 3 domains",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard154"
+    }
+    {
+      "flipfront" : "Define: Light microscopy",
+      "flipback" : "- uses visible light\n - up to 1000x magnification",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard155"
+    }
+    {
+      "flipfront" : "Define: Electron microscopy",
+      "flipback" : "- uses electrons \n - >100,000x magnification",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard156"
+    }
+    {
+      "flipfront" : "Define: Refractive index",
+      "flipback" : "The measure of how a substance will slow the velocity of light, causing bending.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard157"
+    }
+    {
+      "flipfront" : "Define: Focal point",
+      "flipback" : "When light moves through a lens, the point at which they focus is the focal point.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 201",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard158"
+    }
+    {
+      "flipfront" : "Define: Focal length",
+      "flipback" : "The distance between the center of lens and the focal point.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 202",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard159"
+    }
+    {
+      "flipfront" : "How does the focal length relate to the strength of a microscope lens?",
+      "flipback" : "The shorted the focal length, the more magnification of the lense.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 202",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard160"
+    }
+    {
+      "flipfront" : "What is the maximum resolution of a light microscope? Why?",
+      "flipback" : "About 1000x.\n \n The wavelength of light is about 200 nm, so to resolve finer detail, you need a wave with a shorter wavelength.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 202",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard161"
+    }
+    {
+      "flipfront" : "How does wavelength affect resolving power?",
+      "flipback" : "The smaller the wavelength, the higher the resolving power (distance between two visible points is smaller)",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 202",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard162"
+    }
+    {
+      "flipfront" : "Define: Angstrom",
+      "flipback" : "Unit of measurement (10^-10 meters)",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 202",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard163"
+    }
+    {
+      "flipfront" : "Define: Objective lens",
+      "flipback" : "The lens on a microscope, closest to the specimen.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 202",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard164"
+    }
+    {
+      "flipfront" : "Define: Ocular lens",
+      "flipback" : "The lens on a microscope, closest to the eye.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 202",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard165"
+    }
+    {
+      "flipfront" : "How do you measure total magnification?",
+      "flipback" : "Product of magnification of ocular and objective lenses.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 202",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard166"
+    }
+    {
+      "flipfront" : "Define: Bright-field microscopy",
+      "flipback" : "- produces dark image against a lighter background\n - light illuminates everything on the stage",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 202",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard167"
+    }
+    {
+      "flipfront" : "Define: Parfocal",
+      "flipback" : "The ability of a microscope to change objective lenses, but remain in focus.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 202",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard168"
+    }
+    {
+      "flipfront" : "Define: Dark-field microscopy",
+      "flipback" : "- produces bright image against a dark background\n - all light goes through the specimen, none through the surroundings\n - best used for living, unstained organisms",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 202",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard169"
+    }
+    {
+      "flipfront" : "What component is necessary for dark-field microscopy? What does it do?",
+      "flipback" : "You need a dark-field stop underneath the condenser lense.\n \n It restricts light from entering the lense, so the only light is from the specimen itself.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 202",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard170"
+    }
+    {
+      "flipfront" : "What causes syphilis?",
+      "flipback" : "Treponema pallidum causes syphilis.",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 202",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard171"
+    }
+    {
+      "flipfront" : "What disease does Treponema pallidum cause?",
+      "flipback" : "Syphilis is caused by Treponema pallidum.",
+      "tags" : "Topic 1, microbe",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard172"
+    }
+    {
+      "flipfront" : "Describe: Volvox",
+      "flipback" : "- green algae\n - lives in spherical colonies of ~50,000\n - first described by van Leeuwenhoek",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard173"
+    }
+    {
+      "flipfront" : "Define: Phase-contract microscopy",
+      "flipback" : "- image produced by differences in refractive indexes of intracellular structures\n - usually used to examine living cells.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard174"
+    }
+    {
+      "flipfront" : "Define: Fluorescence microscopy",
+      "flipback" : "- specimens are stained with a fluorochrome\n - expose specimen to UV, violet or blue light, causing a bright visual effect\n - often used to differentiate live and dead cell\n - can be used to tag specific molecules on bacteria",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard175"
+    }
+    {
+      "flipfront" : "How are antibodies used in fluorescence microscopy.",
+      "flipback" : "Fluorescent tags can be attached to antibodies. The antibodies will attached to specific cells, allowing differentiation.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard176"
+    }
+    {
+      "flipfront" : "What are the major components of a microscope? (8)",
+      "flipback" : "- illuminator (light source)\n - condensor\n - iris diaphragm\n - stage\n - stage adjustment knob\n - eyepiece (ocular lense)\n - objective lens\n - focus adjustment knobs",
+      "tags" : "Topic 1, list",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard177"
+    }
+    {
+      "flipfront" : "Define: Illuminator (in a microscope)",
+      "flipback" : "The light source of a microscope.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard178"
+    }
+    {
+      "flipfront" : "Define: Condenser (in a microscope)",
+      "flipback" : "A lens that focuses light on the specimen.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard179"
+    }
+    {
+      "flipfront" : "Define: Iris diaphragm (in a microscope)",
+      "flipback" : "A shutter that controls the amount of light that passes to the specimen.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard180"
+    }
+    {
+      "flipfront" : "Define: Stage (in a microscope)",
+      "flipback" : "Table where a specimen is placed.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard181"
+    }
+    {
+      "flipfront" : "Define: Adjustment knob (in a microscope)",
+      "flipback" : "Knob for changing distance between the objective lens and a specimen. Can be fine or coarse adjustment.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard182"
+    }
+    {
+      "flipfront" : "Define: Microscope resolution",
+      "flipback" : "The ability of a microscope to distinguish two points close together",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard183"
+    }
+    {
+      "flipfront" : "Define: Resolving power (on a microscope)",
+      "flipback" : "Minimum distance between two points that can be seen as separate on a microscope.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard184"
+    }
+    {
+      "flipfront" : "Define: Working distance (on a microscope)",
+      "flipback" : "The distance between the lens and a specimen.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard185"
+    }
+    {
+      "flipfront" : "What is the trend for numerical aperture size, as the magnification of a lens increases.",
+      "flipback" : "The numerical aperture size also increases.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard186"
+    }
+    {
+      "flipfront" : "If the numerical aperture size increases, how does the magnification of a lens change?",
+      "flipback" : "The magnification also increases.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard187"
+    }
+    {
+      "flipfront" : "What is the trend for focal length, as the magnification of a lens increases.",
+      "flipback" : "The focal length will decrease.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard188"
+    }
+    {
+      "flipfront" : "If the focal length increases, how does the magnification of a lens change?",
+      "flipback" : "The magnification will decrease.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard189"
+    }
+    {
+      "flipfront" : "What is the trend for working distance, as the magnification of a lens increases.",
+      "flipback" : "The working distance will decrease.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard190"
+    }
+    {
+      "flipfront" : "If the numerical aperture size increases, how does the magnification of a lens change?",
+      "flipback" : "The magnification will decrease.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard191"
+    }
+    {
+      "flipfront" : "What is the trend for resolving power, as the magnification of a lens increases.",
+      "flipback" : "The resolving power will decrease.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard192"
+    }
+    {
+      "flipfront" : "If the resolving power increases, how does the magnification of a lens change?",
+      "flipback" : "The magnification will decrease.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard193"
+    }
+    {
+      "flipfront" : "Why is oil used when a 100x objective lens is used?",
+      "flipback" : "Oil has an refractive index similar to glass, so there is no light loss as light moves from the specimen to the lens.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard194"
+    }
+    {
+      "flipfront" : "What is acridine orange used for?",
+      "flipback" : "- it's a fluorochrome for fluorescence microscopy\n - stains DNA",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard195"
+    }
+    {
+      "flipfront" : "What is FITC (fluorescein isothiocyanate) used for?",
+      "flipback" : "- it's a fluorochrome for fluorescence microscopy\n - can be attached to antibodies or probes that bind specific cellular components.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard196"
+    }
+    {
+      "flipfront" : "What is purpose of staining specimens?",
+      "flipback" : "- increases contrast\n - highlight special structures\n - helps identify and classify microbes\n - preserve the specimen for future observation",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard197"
+    }
+    {
+      "flipfront" : "What is a major problem with staining bacteria?",
+      "flipback" : "Staining can kill microbes, so they can't be used on living bacteria.",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard198"
+    }
+    {
+      "flipfront" : "What are the benefits to wet mounts?",
+      "flipback" : "- can observe living microbes in an aqueous environment\n - able to see movement\n - does not distort the microbes (if they are small)",
+      "tags" : "Topic 1",
+      "courseCode" : "BIOL 204",
+      "creator" : "tester",
+      "created" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "updated" : "ISODate(\"2017-08-02T16:20:11.141Z\")",
+      "flags" : 0,
+      "rating" : 0,
+      "numberOfRatings" : 0,
+      "dataType" : "flip",
+      "_id" : "randomcard199"
+    }

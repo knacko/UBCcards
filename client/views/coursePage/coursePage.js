@@ -6,11 +6,10 @@ Template.coursePage.events({
 		
 		console.log("Clicked on course: " + courseID);
 		
-		Router.go('/study/' + courseID);
+		Router.go('/courses/' + courseID + '/study/');
 		
 		e.preventDefault();
         e.stopPropagation();
     },
-	
-	
+		
 });
