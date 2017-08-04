@@ -1,38 +1,17 @@
 
 <template name="navigation">
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-  
-  <a class="navbar-link" href="/" style="float:left">UBCcards</a>
-<div id="login-btn" class="navbar-nav"  style="float:right">
-        <ul class="nav navbar-nav navbar-right">
+	<nav class="navbar navbar-ubc navbar-fixed-top">
+		<div class="container">
+
+			<a class="navbar-link" href="/" style="float:left">UBCcards</a>
+			<div id="login-btn" class="navbar-nav"  style="float:right">
+				<ul class="nav navbar-nav navbar-right">
           {{> loginButtons}}
-        </ul>  
-	</div>
-  <a class="navbar-link" href="#contact" style="float:right">Options</a>
-  <a class="navbar-link" href="#news" style="float:right">Help</a>
-    
+				</ul>  
+			</div>
+			<a class="navbar-link" href="#contact" style="float:right">Options</a>
+			<a class="navbar-link" href="#news" style="float:right">Help</a>
 
-  
-  <!--
-  
-  
-      <div id="title" class="nav navbar-nav navbar-left">
-        <a class="navbar-brand" href="{{pathFor route='home'}}">UBCcards</a>
-      </div> 
-  
-		
-      <div id="search" class="input-group">
-        {{> inputAutocomplete settings=autocompleteSettings id="courseSearch" class="input-xlarge" placeholder="Find a course..."}}
-      </div> #search  
-
-	  <div id="help-btn" class="navbar-nav">
-		<button type="button" class="btn btn-block btn-primary">Help</button>
-	  </div>
-	  
-      
-      </div>-->
-  
-    </div>
-  </nav>
+		</div>
+	</nav>
 </template>
