@@ -63,6 +63,10 @@ Template.cardRow.events({
 		});
 	}
 	
+	toastr["success"]("Card has been added.");		
+	
+	
+	
   },
 		
 
@@ -76,6 +80,8 @@ Template.cardRow.events({
 	} else {
 		
 		Cards.remove({_id: this._id});
+				
+		toastr["info"]("Card has been deleted.");		
 				
 		//console.log("Dropped " + Meteor.userId() + " from " + this.name);
 		

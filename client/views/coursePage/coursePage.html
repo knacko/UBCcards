@@ -2,13 +2,16 @@
 
 {{> breadcrumb}}
 
-	<div class="RowTableTitle">
-		<h3 class="left">Course: {{name}} / {{courseCode}}</h3>
-		<button class="btn btn-study right">Study</button>
-	</div>
+
+<table style="vertical-align: center">
+	<tr>
+		<td width="99%"><h3>Course: {{name}} / {{courseCode}}</h3></td>
+		<td width="1%"><button class="btn btn-study">Study</button></td>
+	</tr>
+	
+	</table>
 	
 	{{> cardRowTable}}
-	
 	<!--
 
 	{{#basicTabs name="" tabs=tabs}}

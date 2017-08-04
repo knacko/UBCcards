@@ -4,7 +4,11 @@
 		<td><div class="divinput" contentEditable="true" id="front{{_id}}">{{{flipfront}}}</div></td>
 		<td><div class="divinput" contentEditable="true" id="back{{_id}}">{{{flipback}}}</div></td>
 		<td><div class="divinput" contentEditable="true" id="tags{{_id}}">{{{tags}}}</div></td>
-		<td><button class="btn btn-saveCard" >Save</button></td>
-		<td>{{#unless isBlank}}<button class="btn btn-deleteCard" >Delete</button>{{/unless}}</td>
+		<td>
+			<button class="btn btn-saveCard" style="margin:0px 0px 5px;width:100%">Save</button>
+			<br>
+			{{#unless isBlank}}<button class="btn btn-deleteCard" style="width:100%" >Delete</button>{{/unless}}	
+		</td>
+		
 	</tr>
 </template>
