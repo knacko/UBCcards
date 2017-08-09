@@ -1,14 +1,16 @@
 
+import arbitrary from 'arbitrary';
+
+let generate = new arbitrary.Generator(42);
 
 Template.cardHolder.onCreated(function() {
-		
-	selectRandomCard();
+	selectRandomCard(true);
 	Session.set('showCard',false);
 	this.showCard = new ReactiveVar(false);
 });
 	
 
-function selectRandomCard(){
+function selectRandomCard(selectNext){
   	
 	var code = Session.get("currentCourseCode");
 
@@ -18,13 +20,30 @@ function selectRandomCard(){
 	
 	console.log("Found " + c.count() + " cards");
 	
-	Session.set('randomCard', Random.choice(c.fetch()));
+	var n = 0;
+	
+	if (selectNext) {
+		n = generate.next.percent();
+	} else{
+		n = generate.prev.percent();
+	}
+	
+	n = Math.floor(n*c.count());
+	
+	console.log("Picked card " + n);
+	
+	Session.set('randomCard', c.fetch()[n]);
 }
 
 Template.cardHolder.events({
 	
 	"click .btn-nextCard": function (e,t) {
-		selectRandomCard();
+		selectRandomCard(true);
+		t.showCard.set(false);
+		
+	},
+	"click .btn-prevCard": function (e,t) {
+		selectRandomCard(false);
 		t.showCard.set(false);
 		
 	},
