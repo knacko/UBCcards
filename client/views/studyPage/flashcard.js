@@ -3,13 +3,6 @@ import arbitrary from 'arbitrary';
 
 let generate = new arbitrary.Generator(42);
 
-Template.cardHolder.onCreated(function() {
-	selectRandomCard(true);
-	Session.set('showCard',false);
-	this.showCard = new ReactiveVar(false);
-});
-	
-
 function selectRandomCard(selectNext){
   	
 	var code = Session.get("currentCourseCode");
@@ -34,6 +27,12 @@ function selectRandomCard(selectNext){
 	
 	Session.set('randomCard', c.fetch()[n]);
 }
+
+Template.cardHolder.onCreated(function() {
+	selectRandomCard(true);
+	Session.set('showCard',false);
+	this.showCard = new ReactiveVar(false);
+});
 
 Template.cardHolder.events({
 	
@@ -65,3 +64,6 @@ Template.cardHolder.helpers ({
   }
 	
 });
+
+
+

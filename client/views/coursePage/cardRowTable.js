@@ -14,7 +14,7 @@ Template.cardRowTable.helpers ({
 	},
 	
 	flaggedCard() {
-		var c = Cards.find({$and:[{courseCode: Session.get("currentCourseCode")}, {flags: ($gt: 0)}]});
+		var c = Cards.find({$and:[{courseCode: Session.get("currentCourseCode")}, {flags: {$gt: 0}}]});
 		console.log("Found flagged cards: " + c.count());	
 		return c;
 	},

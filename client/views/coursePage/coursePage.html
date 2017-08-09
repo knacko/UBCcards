@@ -2,7 +2,6 @@
 
 {{> breadcrumb}}
 
-
 <table class="header">
 	<tr>
 		<td width="99%"><h3>Course: {{name}} / {{courseCode}}</h3></td>
@@ -11,7 +10,7 @@
 	
 	</table>
 	
-	{{#basicTabs name="" tabs=tabs}}
+	{{#basicTabs name="" tabs=tabs activeTab='active'}}
 	
 		{{#tabContent slug="addNew"}}
 			{{> cardRowTable showBlank="true"}}
@@ -24,5 +23,6 @@
 			{{> cardRowTable showOnlyFlagged="true"}}
 		{{/tabContent}}
 	{{/basicTabs}}
+
   
 </template>

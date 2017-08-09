@@ -6,12 +6,10 @@ ReactiveTabs.createInterface({
     //console.log('[tabs] Tab has changed! Current tab:', slug);
     //console.log('[tabs] Template instance calling onChange:', template);
   }
-});
+}); 
 
 Template.cardHolder.onCreated(function() {
-	selectRandomCard(true);
-	Session.set('showCard',false);
-	this.showCard = new ReactiveVar(false);
+
 });
 	
 Template.coursePage.events({
@@ -41,4 +39,6 @@ Template.coursePage.helpers({
       { name: 'Flagged Cards', slug: 'flagged' },
     ];
   },
+ 
+  
 });
