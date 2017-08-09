@@ -1,6 +1,8 @@
 
 import arbitrary from 'arbitrary';
 
+var Mousetrap = require('mousetrap');
+
 let generate = new arbitrary.Generator(42);
 
 function selectRandomCard(selectNext){
@@ -32,11 +34,24 @@ Template.cardHolder.onCreated(function() {
 	selectRandomCard(true);
 	Session.set('showCard',false);
 	this.showCard = new ReactiveVar(false);
+	
+	var test = "inside template"
+	
+	Mousetrap.bind('left', function() {
+        console.log('Pressed left from ' + test);
+    });
+
+    Mousetrap.bind('right', function() {
+        console.log('Pressed right');
+    });
+	
+	
+	
 });
 
 Template.cardHolder.events({
 	
-	"click .btn-nextCard": function (e,t) {
+	"click .btn-nextCard, keypress": function (e,t) {
 		selectRandomCard(true);
 		t.showCard.set(false);
 		
@@ -65,5 +80,4 @@ Template.cardHolder.helpers ({
 	
 });
 
-
-
+    
