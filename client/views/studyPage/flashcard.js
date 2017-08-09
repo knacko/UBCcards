@@ -30,21 +30,47 @@ function selectRandomCard(selectNext){
 	Session.set('randomCard', c.fetch()[n]);
 }
 
+function goToNextCard(bool, template) {
+	
+	selectRandomCard(bool);
+	template.showCard.set(false);
+	
+}
+
+function showCard(template) {
+	
+	template.showCard.set(!template.showCard.get());
+	
+}
+
+
 Template.cardHolder.onCreated(function() {
 	selectRandomCard(true);
 	Session.set('showCard',false);
 	this.showCard = new ReactiveVar(false);
 	
 	var test = "inside template"
+	var template = this;
 	
 	Mousetrap.bind('left', function() {
-        console.log('Pressed left from ' + test);
+       goToNextCard(false, template);
     });
 
     Mousetrap.bind('right', function() {
-        console.log('Pressed right');
+       goToNextCard(true, template);
     });
 	
+	Mousetrap.bind('up', function() {
+       showCard(template);
+    });
+	
+	Mousetrap.bind('down', function() {
+       showCard(template);
+    });
+	
+	Mousetrap.bind('space', function() {
+       showCard(template);
+    });
 	
 	
 });
@@ -52,18 +78,16 @@ Template.cardHolder.onCreated(function() {
 Template.cardHolder.events({
 	
 	"click .btn-nextCard, keypress": function (e,t) {
-		selectRandomCard(true);
-		t.showCard.set(false);
+		goToNextCard(true, t)
 		
 	},
 	"click .btn-prevCard": function (e,t) {
-		selectRandomCard(false);
-		t.showCard.set(false);
+		goToNextCard(false, t)
 		
 	},
 	
 	"click .btn-flipCard": function(e, t){
-		t.showCard.set(!Template.instance().showCard.get());
+		showCard(t);
 	},
 	
 });
