@@ -1,6 +1,5 @@
 import './cardRow';
 
-
 Template.cardRow.onCreated(function() {
   
   if (!this.blank) {
@@ -14,7 +13,7 @@ Template.cardRow.helpers ({
 	getStats() {
 		var n = Cards.find({"courseCode": this.courseCode}).count();
 		console.log("Found " + n + " cards in " + this.name);
-		return n;	
+		return n;
 	},
 	
 	isBlank(){
@@ -39,7 +38,7 @@ Template.cardRow.events({
 	
 	if (this.blank=="true")	{
 		Cards.insert({
-			courseCode: this.code,
+			courseCode: Session.get("currentCourseCode"),
 			flipfront: $("#front").html(),
 			flipback: $("#back").html(),
 			tags: $("#tags").html(),

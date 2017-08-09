@@ -11,11 +11,11 @@
 	
 	</table>
 	
-	{{> cardRowTable}}
-	<!--
-
 	{{#basicTabs name="" tabs=tabs}}
 	
+		{{#tabContent slug="addNew"}}
+			{{> cardRowTable showBlank="true"}}
+		{{/tabContent}}
 		{{#tabContent slug="active"}}
 			{{> cardRowTable}}
 		{{/tabContent}}
@@ -24,5 +24,5 @@
 			{{> cardRowTable showOnlyFlagged="true"}}
 		{{/tabContent}}
 	{{/basicTabs}}
-  -->
+  
 </template>

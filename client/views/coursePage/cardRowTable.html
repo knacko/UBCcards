@@ -10,20 +10,25 @@
 	</thead>
 	<tbody>
 
-	{{#if showJustFlagged}}
+	{{#if showOnlyFlagged}}
+		{{#if flaggedCard.count}}	
 			{{#each flaggedCard}}
 				{{> cardRow }}
 			{{/each}}
-
-	{{else}}
-	
-			{{> cardRow blank="true" code=courseCode}}
-			
+		{{else}}
+			<tr><td colspan="4" style="text-align:center">No cards found</td></tr>
+		{{/if}}
+	{{else if showBlank}}
+		{{> cardRow blank="true"}}
+	{{else}}	
+		{{#if card.count}}	
 			{{#each card}}
-				{{> cardRow}}
+				{{> cardRow }}
 			{{/each}}
-
-{{/if}}	
+		{{else}}
+			<tr><td colspan="4" style="text-align:center">No cards found</td></tr>
+		{{/if}}	
+	{{/if}}	
 
 	</tbody>
 </table>

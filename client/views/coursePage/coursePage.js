@@ -1,3 +1,19 @@
+ReactiveTabs.createInterface({
+  template: 'basicTabs',
+  onChange: function (slug, template) {
+    // This callback runs every time a tab changes.
+    // The `template` instance is unique per {{#basicTabs}} block.
+    //console.log('[tabs] Tab has changed! Current tab:', slug);
+    //console.log('[tabs] Template instance calling onChange:', template);
+  }
+});
+
+Template.cardHolder.onCreated(function() {
+	selectRandomCard(true);
+	Session.set('showCard',false);
+	this.showCard = new ReactiveVar(false);
+});
+	
 Template.coursePage.events({
 		
 		"click .btn-study": function (e,t) {
@@ -11,5 +27,18 @@ Template.coursePage.events({
 		e.preventDefault();
         e.stopPropagation();
     },
-		
+
+});
+
+
+Template.coursePage.helpers({
+	
+	tabs: function () {
+    // Every tab object MUST have a name and a slug!
+    return [
+      { name: 'Add New Card', slug: 'addNew' },
+      { name: 'Active Cards', slug: 'active' },
+      { name: 'Flagged Cards', slug: 'flagged' },
+    ];
+  },
 });
