@@ -118,8 +118,7 @@ body .modal-dialog { /* Width */
   vertical-align: bottom;
 }
 
-.divinput {
-	    display:inline-block;
+.cardRow-input {
       border-radius:6px;
   box-shadow:2px 2px 8px rgba(0,0,0,.3);
   border:0;
@@ -128,7 +127,26 @@ body .modal-dialog { /* Width */
 	width: 100%;
 	text-align: left;
 	padding: 5px;
+	height:100%;
 
+}
+.cardRow-cell {
+	display: table-cell;
+
+}
+
+.cardRow-container{
+	display: table-row;
+	width: 100%;
+}
+
+.cardTable-container{
+	table-layout: fixed;
+	display: table;
+	width: 100%;
+	border-collapse:separate;
+	border-spacing:7px;
+	
 }
 
 .header {
@@ -160,6 +178,14 @@ body .modal-dialog { /* Width */
 		color: white;
 	}
 
-
+	.button-icon{
+		padding: 0px;
+	}
+.tabs-margin.ul{
+	margin:0px;
+}
+.tabs-margin.ol{
+	margin:0px;
+}
 }
 
